@@ -106,17 +106,14 @@
 
 ## 8. 實作照片
 
-![全景：板子與接線](docs/board.jpg)
-板子、USB 線、繼電器、蜂鳴器與 MP3 板全景
+![全景](docs/board.png)
+全景：板子、繼電器、蜂鳴器、MP3 板與接線，尚未按下按鈕（系統 OFF，綠燈滅）
 
 ![接線特寫](docs/wiring.jpg)
-接線特寫：PA8 → 繼電器 IN、PA0 → 蜂鳴器
+接線特寫：NUCLEO-G474RE 腳位與 MP3 板接線，尚未按下按鈕（綠燈 LD2 滅）
 
 ![系統 ON](docs/led_on.jpg)
-按第 1 次：綠燈亮，MP3 播放中
-
-![系統 OFF](docs/led_off.jpg)
-按第 2 次：綠燈滅，MP3 停止
+按下 B1 後（系統 ON）：綠燈 LD2 亮、繼電器指示燈亮（吸合）、MP3 板通電播放
 
 ![終端機畫面](docs/terminal.png)
 終端機（115200 8N1）輪流印出 system on / system off
