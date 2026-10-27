@@ -1,0 +1,16 @@
+# STM32CubeIDE 編譯產物（不用上傳）
+/Debug/
+/Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# IDE 暫存與個人設定
+.settings/language.settings.xml
+*.launch
